@@ -10,17 +10,161 @@ class Footer extends BaseView
     {
 ?>
 
-        <footer class="footer">Đây là footer client. Copyright &copy; Chihihi</footer>
-
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-        </body>
-
-        </html>
+<footer id="footer" class="py-5 border-top">
+    <div class="container-lg">
+      <div class="row">
+        <div class="col-lg-2 pb-3">
+          <div class="footer-menu">
+            <h5 class="widget-title pb-2">Info</h5>
+            <ul class="menu-list list-unstyled">
+              <li class="pb-2">
+                <a href="#">Track Your Order</a>
+              </li>
+              <li class="pb-2">
+                <a href="index.html">Our Blog</a>
+              </li>
+              <li class="pb-2">
+                <a href="#">Privacy policy</a>
+              </li>
+              <li class="pb-2">
+                <a href="#">Shipping</a>
+              </li>
+              <li class="pb-2">
+                <a href="#">Contact Us</a>
+              </li>
+              <li class="pb-2">
+                <a href="#">Help</a>
+              </li>
+              <li class="pb-2">
+                <a href="#">Community</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 pb-3">
+          <div class="footer-menu">
+            <h5 class="widget-title pb-2">About</h5>
+            <ul class="menu-list list-unstyled">
+              <li class="pb-2">
+                <a href="#">History</a>
+              </li>
+              <li class="pb-2">
+                <a href="#">Our Team</a>
+              </li>
+              <li class="pb-2">
+                <a href="#">Services</a>
+              </li>
+              <li class="pb-2">
+                <a href="#">Company</a>
+              </li>
+              <li class="pb-2">
+                <a href="#">Manufacture</a>
+              </li>
+              <li class="pb-2">
+                <a href="#">Wholesale</a>
+              </li>
+              <li class="pb-2">
+                <a href="#">Retail</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 pb-3">
+          <div class="footer-menu">
+            <h5 class="widget-title pb-2">Women Shoes</h5>
+            <ul class="menu-list list-unstyled">
+              <li class="pb-2">
+                <a href="#">Track Your Order</a>
+              </li>
+              <li class="pb-2">
+                <a href="index.html">Our Blog</a>
+              </li>
+              <li class="pb-2">
+                <a href="#">Privacy policy</a>
+              </li>
+              <li class="pb-2">
+                <a href="#">Shipping</a>
+              </li>
+              <li class="pb-2">
+                <a href="#">Contact Us</a>
+              </li>
+              <li class="pb-2">
+                <a href="#">Help</a>
+              </li>
+              <li class="pb-2">
+                <a href="#">Community</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 pb-3">
+          <div class="footer-menu">
+            <h5 class="widget-title pb-2">Popular</h5>
+            <ul class="menu-list list-unstyled">
+              <li class="pb-2">
+                <a href="#">Prices Drop</a>
+              </li>
+              <li class="pb-2">
+                <a href="#">New Products</a>
+              </li>
+              <li class="pb-2">
+                <a href="#">Best Sales</a>
+              </li>
+              <li class="pb-2">
+                <a href="index.html">Stores</a>
+              </li>
+              <li class="pb-2">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#modallogin">Login</a>
+              </li>
+              <li class="pb-2">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#modallong">Cart</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 pb-3">
+          <div class="footer-menu">
+            <h5 class="widget-title pb-2">Mens Collection</h5>
+            <ul class="menu-list list-unstyled">
+              <li class="pb-2">
+                <a href="#">Delivery</a>
+              </li>
+              <li class="pb-2">
+                <a href="index.html">About Us</a>
+              </li>
+              <li class="pb-2">
+                <a href="#">Shoes</a>
+              </li>
+              <li class="pb-2">
+                <a href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 pb-3">
+          <div class="footer-menu">
+            <h5 class="widget-title pb-3">Get In Touch</h5>
+            <div class="footer-contact-text">
+              <span>Stylish Online Store 123 Main Street, Toulouse - France. </span>
+              <span> Call us: (+33) 800 456 789-987 </span>
+              <span class="text-hover fw-bold light-border"><a href="mailto:contact@yourwebsite.com">contact@yourwebsite.com</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <p>© Copyright Stylish 2023.</p>
+        </div>
+        <div class="col-md-6 text-lg-end">
+          <p>Free HTML by <a href="https://templatesjungle.com/" target="_blank">TemplatesJungle</a><br> Distributed by <a href="https://themewagon.com" target="blank">ThemeWagon</a> </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="/public/assets/client/js/jquery-1.11.0.min.js"></script>
+  <script src="/public/assets/client//js/plugins.js"></script>
+  <script src="/public/assets/client//js/script.js"></script>
 
 
 <?php
