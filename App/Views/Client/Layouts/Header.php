@@ -190,7 +190,7 @@ class Header extends BaseView
                 </div>
                 <div class="offcanvas-body">
                     <ul id="navbar" class="navbar-nav fw-bold justify-content-end align-items-center flex-grow-1">
-                        <li class="nav-item dropdown">
+                        <!-- <li class="nav-item dropdown">
                             <a class="nav-link me-5 active dropdown-toggle border-0" href="#" data-bs-toggle="dropdown"
                                 aria-expanded="false">Trang chủ</a>
                             <ul class="dropdown-menu fw-bold">
@@ -201,6 +201,9 @@ class Header extends BaseView
                                     <a href="index.html" class="dropdown-item">Trang chủ V2 </a>
                                 </li>
                             </ul>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link me-5" href="/">Trang chủ</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link me-5" href="#">Nam</a>
@@ -242,7 +245,7 @@ class Header extends BaseView
                             <a class="nav-link me-5" href="index.html">Cửa hàng</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link me-5" href="#">Khuyến mãi</a>
+                            <a class="nav-link me-5" href="/about">Về chúng tôi</a>
                         </li>
                     </ul>
                 </div>

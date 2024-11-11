@@ -6,166 +6,112 @@ use App\Views\BaseView;
 
 class Footer extends BaseView
 {
-    public static function render($data = null)
-    {
+  public static function render($data = null)
+  {
 ?>
 
-<footer id="footer" class="py-5 border-top">
-    <div class="container-lg">
-      <div class="row">
-        <div class="col-lg-2 pb-3">
-          <div class="footer-menu">
-            <h5 class="widget-title pb-2">Thông tin</h5>
-            <ul class="menu-list list-unstyled">
-              <li class="pb-2">
-                <a href="#">Theo dõi đơn hàng</a>
-              </li>
-              <li class="pb-2">
-                <a href="index.html">Blog của chúng tôi</a>
-              </li>
-              <li class="pb-2">
-                <a href="#">Chính sách bảo mật</a>
-              </li>
-              <li class="pb-2">
-                <a href="#">Vận chuyển</a>
-              </li>
-              <li class="pb-2">
-                <a href="#">Liên hệ chúng tôi</a>
-              </li>
-              <li class="pb-2">
-                <a href="#">Trợ giúp</a>
-              </li>
-              <li class="pb-2">
-                <a href="#">Cộng đồng</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-2 pb-3">
-          <div class="footer-menu">
-            <h5 class="widget-title pb-2">Giới thiệu</h5>
-            <ul class="menu-list list-unstyled">
-              <li class="pb-2">
-                <a href="#">Lịch sử</a>
-              </li>
-              <li class="pb-2">
-                <a href="#">Đội ngũ của chúng tôi</a>
-              </li>
-              <li class="pb-2">
-                <a href="#">Dịch vụ</a>
-              </li>
-              <li class="pb-2">
-                <a href="#">Công ty</a>
-              </li>
-              <li class="pb-2">
-                <a href="#">Sản xuất</a>
-              </li>
-              <li class="pb-2">
-                <a href="#">Bán buôn</a>
-              </li>
-              <li class="pb-2">
-                <a href="#">Bán lẻ</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-2 pb-3">
-          <div class="footer-menu">
-            <h5 class="widget-title pb-2">Giày nữ</h5>
-            <ul class="menu-list list-unstyled">
-              <li class="pb-2">
-                <a href="#">Theo dõi đơn hàng</a>
-              </li>
-              <li class="pb-2">
-                <a href="index.html">Blog của chúng tôi</a>
-              </li>
-              <li class="pb-2">
-                <a href="#">Chính sách bảo mật</a>
-              </li>
-              <li class="pb-2">
-                <a href="#">Vận chuyển</a>
-              </li>
-              <li class="pb-2">
-                <a href="#">Liên hệ chúng tôi</a>
-              </li>
-              <li class="pb-2">
-                <a href="#">Trợ giúp</a>
-              </li>
-              <li class="pb-2">
-                <a href="#">Cộng đồng</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-2 pb-3">
-          <div class="footer-menu">
-            <h5 class="widget-title pb-2">Phổ biến</h5>
-            <ul class="menu-list list-unstyled">
-              <li class="pb-2">
-                <a href="#">Giảm giá</a>
-              </li>
-              <li class="pb-2">
-                <a href="#">Sản phẩm mới</a>
-              </li>
-              <li class="pb-2">
-                <a href="#">Bán chạy nhất</a>
-              </li>
-              <li class="pb-2">
-                <a href="index.html">Cửa hàng</a>
-              </li>
-              <li class="pb-2">
-                <a href="#" data-bs-toggle="modal" data-bs-target="#modallogin">Đăng nhập</a>
-              </li>
-              <li class="pb-2">
-                <a href="#" data-bs-toggle="modal" data-bs-target="#modallong">Giỏ hàng</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-2 pb-3">
-          <div class="footer-menu">
-            <h5 class="widget-title pb-2">Bộ sưu tập giày nam</h5>
-            <ul class="menu-list list-unstyled">
-              <li class="pb-2">
-                <a href="#">Vận chuyển</a>
-              </li>
-              <li class="pb-2">
-                <a href="index.html">Giới thiệu chúng tôi</a>
-              </li>
-              <li class="pb-2">
-                <a href="#">Giày</a>
-              </li>
-              <li class="pb-2">
-                <a href="#">Liên hệ chúng tôi</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-2 pb-3">
-          <div class="footer-menu">
-            <h5 class="widget-title pb-3">Liên hệ với chúng tôi</h5>
-            <div class="footer-contact-text">
-              <span>Cửa hàng trực tuyến thời trang 5TV KDC Hoàng Nam, Cái Răng - Cần Thơ.</span>
-              <span> Gọi cho chúng tôi: (+33) 800 456 789-987 </span>
-              <span class="text-hover fw-bold light-border"><a href="mailto:contact@yourwebsite.com">5Thanhvien@ygmail.com</a></span>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-    </div>
-  </footer>
+    <!DOCTYPE html>
+    <html lang="vi">
 
-  <script src="/public/assets/client/js/jquery-1.11.0.min.js"></script>
-  <script src="/public/assets/client//js/plugins.js"></script>
-  <script src="/public/assets/client//js/script.js"></script>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Ví dụ Footer với Logo</title>
+      <style>
+        .footer {
+          background-color: #f9f9f9;
+          padding: 40px 20px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          font-size: 14px;
+        }
 
+        .footer-content {
+          display: flex;
+          width: 100%;
+          justify-content: space-between;
+        }
+
+        .footer-column {
+          flex: 1;
+          margin-right: 20px;
+        }
+
+        .footer-column h4 {
+          font-weight: bold;
+          margin-bottom: 10px;
+        }
+
+        .footer-column ul {
+          list-style: none;
+          padding: 0;
+        }
+
+        .footer-column ul li {
+          margin-bottom: 5px;
+        }
+
+        .footer-logo {
+          margin-left: auto;
+        }
+
+        .footer-bottom {
+          text-align: center;
+          padding-top: 20px;
+          border-top: 1px solid #ddd;
+          margin-top: 20px;
+        }
+      </style>
+    </head>
+
+    <body>
+      <footer class="footer">
+        <div class="footer-content">
+          <div class="footer-column">
+            <h4>Tài Nguyên</h4>
+            <ul>
+              <li>Tìm Cửa Hàng</li>
+              <li>Trở Thành Thành Viên</li>
+              <li>Gửi Phản Hồi</li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Trợ Giúp</h4>
+            <ul>
+              <li>Nhận Hỗ Trợ</li>
+              <li>Trạng Thái Đơn Hàng</li>
+              <li>Giao Hàng</li>
+              <li>Đổi Trả</li>
+              <li>Phương Thức Thanh Toán</li>
+              <li>Liên Hệ</li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Về 5TV</h4>
+            <ul>
+              <li>Giới Thiệu</li>
+              <li>Tin Tức</li>
+              <li>Cơ Hội Nghề Nghiệp</li>
+              <li>Nhà Đầu Tư</li>
+              <li>Sự Bền Vững</li>
+            </ul>
+          </div>
+          <!-- Thêm logo nằm bên phải -->
+          <div class="footer-logo">
+            <img src="/public/assets/client/images/Shoes store.png" href="/" alt="Logo 5TV" width="150">
+          </div>
+        </div>
+      </footer>
+    </body>
+    <script src="/public/assets/client/js/jquery-1.11.0.min.js"></script>
+    <script src="/public/assets/client//js/plugins.js"></script>
+    <script src="/public/assets/client//js/script.js"></script>
+
+    </html>
 
 <?php
-
-        // unset($_SESSION['success']);
-        // unset($_SESSION['error']);
-    }
+  }
 }
 
 ?>
