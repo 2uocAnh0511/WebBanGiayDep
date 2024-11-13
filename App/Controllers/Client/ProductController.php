@@ -45,7 +45,7 @@ class ProductController
                 'description' => 'Description Product 1',
                 'price' => 100000,
                 'discount_price' => 10000,
-                'image' => 'product.jpg',
+                'image' => 'summary-item1.jpg',
                 'status' => 1
             ],
             [
@@ -54,7 +54,7 @@ class ProductController
                 'description' => 'Description Product 2',
                 'price' => 200000,
                 'discount_price' => 20000,
-                'image' => 'product.jpg',
+                'image' => 'summary-item1.jpg',
                 'status' => 1
             ],
             [
@@ -63,16 +63,16 @@ class ProductController
                 'description' => 'Description Product 3',
                 'price' => 300000,
                 'discount_price' => 30000,
-                'image' => 'product.jpg',
+                'image' => 'summary-item1.jpg',
                 'status' => 1
             ],
             [
                 'id' => 4,
-                'name' => 'Product 3',
-                'description' => 'Description Product 3',
+                'name' => '>Giày chạy bộ cho Nam',
+                'description' => 'Description Product 4',
                 'price' => 300000,
                 'discount_price' => 30000,
-                'image' => 'product.jpg',
+                'image' => 'summary-item1.jpg',
                 'status' => 1
             ],
 
@@ -90,9 +90,9 @@ class ProductController
     {
         $product_detail = [
             'id' => $id,
-            'name' => 'Product 1',
-            'description' => 'Description Product 1',
-            'price' => 100000,
+            'name' => 'Giày chạy bộ cho Nam',
+            'description' => 'Hãy mua giày tốt và một chiếc nệm tốt, bởi vì khi bạn không ở trên chiếc nệm, bạn sẽ ở trong đôi giày. Với bốn đôi giày, tôi có thể du lịch khắp thế giới.',
+            'price' => 1500000,
             'discount_price' => 10000,
             'image' => 'product.jpg',
             'status' => 1

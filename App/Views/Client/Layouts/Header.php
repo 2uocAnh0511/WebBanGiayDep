@@ -156,7 +156,7 @@ class Header extends BaseView
                             <div class="col">
                                 <ul class="d-flex justify-content-end gap-3 list-unstyled m-0">
                                     <li>
-                                        <a href="#">Liên hệ</a>
+                                        <a href="/contact">Liên hệ</a>
                                     </li>
                                     <li>
                                         <a href="#" data-bs-toggle="modal" data-bs-target="#modallong" >Giỏ hàng</a>
