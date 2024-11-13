@@ -23,8 +23,10 @@ Route::get('/products', 'App\Controllers\Client\ProductController@index');
 Route::get('/products/{id}', 'App\Controllers\Client\ProductController@detail');
 
 // Chuyển đến trang About 
-
 Route::get('/about', 'App\Controllers\Client\AboutController@about');
+
+// Chuyển đến trang Variant
+Route::get('/variant', 'App\Controllers\Client\VariantController@variant');
 
 
 // *** Admin

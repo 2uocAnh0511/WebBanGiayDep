@@ -159,10 +159,10 @@ class Header extends BaseView
                             <a href="#">Liên hệ</a>
                         </li>
                         <li>
-                            <a href="#">Giỏ hàng</a>
+                            <a href="#"  data-bs-toggle="modal" data-bs-target="#modallong" class="dropdown-item">Giỏ hàng</a>
                         </li>
                         <li>
-                            <a href="#">Đăng nhập</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modallogin" class="dropdown-item">Đăng nhập</a>
                         </li>
                     </ul>
                 </div>
@@ -206,22 +206,28 @@ class Header extends BaseView
                             <a class="nav-link me-5" href="/">Trang chủ</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link me-5" href="#">Nam</a>
+                            <a class="nav-link me-5" href="#">Sản phẩm</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link me-5" href="#">Nữ</a>
+                            <a class="nav-link me-5" href="#">Bài viết</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link me-5" href="index.html">Cửa hàng</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link me-5" href="/about">Về chúng tôi</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link me-5 active dropdown-toggle border-0" href="#" data-bs-toggle="dropdown"
                                 aria-expanded="false">Trang</a>
                             <ul class="dropdown-menu fw-bold">
                                 <li>
-                                    <a href="index.html" class="dropdown-item">Giới thiệu</a>
+                                    <a href="/about" class="dropdown-item">Giới thiệu</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="index.html">Cửa hàng</a>
+                                    <a class="dropdown-item" href="/product">Sản phẩm</a>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <a class="dropdown-item" href="index.html">Blog</a>
                                 </li>
                                 <li>
@@ -232,7 +238,7 @@ class Header extends BaseView
                                 </li>
                                 <li>
                                     <a class="dropdown-item" href="index.html">Phong cách</a>
-                                </li>
+                                </li> -->
                                 <li>
                                     <a href="#" data-bs-toggle="modal" data-bs-target="#modallong" class="dropdown-item">Giỏ hàng</a>
                                 </li>
@@ -240,12 +246,6 @@ class Header extends BaseView
                                     <a href="#" data-bs-toggle="modal" data-bs-target="#modallogin" class="dropdown-item">Đăng nhập</a>
                                 </li>
                             </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link me-5" href="index.html">Cửa hàng</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link me-5" href="/about">Về chúng tôi</a>
                         </li>
                     </ul>
                 </div>
@@ -278,6 +278,10 @@ class Header extends BaseView
         </div>
     </nav>
 </header>
+    <script src="/public/assets/client/js/jquery-1.11.0.min.js"></script>
+    <script src="/public/assets/client//js/plugins.js"></script>
+    <script src="/public/assets/client//js/script.js"></script>
+
 
   <?php
 
