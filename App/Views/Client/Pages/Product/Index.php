@@ -603,7 +603,7 @@ class Index extends BaseView
                             <div class="addtocart-button clearfix" style="display: flex; justify-content: center; gap: 10px;">
                                 <a class="add-to-cart" href="javascript:void(0)" onclick="AddToCard(2651,1)" style="display: inline-block; padding: 8px 15px; background-color: #28a745; color: white; border-radius: 4px; text-decoration: none;">Thêm vào giỏ hàng</a>
                                 <a class="add-wishlist" href="/products/<?= $item['id'] ?>" style="display: inline-block; padding: 8px 15px; background-color: #ffc107; color: white; border-radius: 4px; text-decoration: none;">Chi tiết</a>
-                                <a class="add-compare" href="#" style="display: inline-block; padding: 8px 15px; background-color: #007bff; color: white; border-radius: 4px; text-decoration: none;">Mua ngay</a>
+                                <a class="add-compare" href="/checkout" style="display: inline-block; padding: 8px 15px; background-color: #007bff; color: white; border-radius: 4px; text-decoration: none;">Mua ngay</a>
                             </div>
                         </div>
                     </div>

@@ -11,12 +11,12 @@ class Contact extends BaseView
 
 ?>
         <!DOCTYPE html>
-        <html lang="en">
+        <html lang="vi">
 
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Contact Us</title>
+            <title>Liên Hệ Với Chúng Tôi</title>
             <style>
                 body {
                     font-family: 'Arial', sans-serif;
@@ -30,10 +30,9 @@ class Contact extends BaseView
                     color: white;
                     padding: 20px;
                     text-align: center;
-                    
                 }
 
-                h1{
+                h1 {
                     color: white;
                     margin-bottom: 20px;
                 }
@@ -72,6 +71,7 @@ class Contact extends BaseView
                     padding: 40px;
                     border-radius: 8px;
                     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                    margin-bottom: 40px;
                 }
 
                 .form-container h2 {
@@ -107,53 +107,50 @@ class Contact extends BaseView
                 .form-container button:hover {
                     background-color: #555;
                 }
-
-                
             </style>
         </head>
 
         <body>
 
             <section>
-                <h1>Contact Us</h1>
-                <p>We would love to hear from you! Please feel free to reach out to us.</p>
+                <h1>Liên Hệ Với Chúng Tôi</h1>
+                <p>Chúng tôi rất mong nhận được ý kiến phản hồi từ bạn! Vui lòng liên hệ với chúng tôi nếu bạn có bất kỳ câu hỏi nào.</p>
             </section>
 
             <div class="container">
-                <!-- Contact Info -->
+                <!-- Thông Tin Liên Hệ -->
                 <div class="contact-info">
                     <div>
-                        <h3>Our Office</h3>
-                        <p>123 Main Street, City Name, Country</p>
+                        <h3>Văn Phòng Của Chúng Tôi</h3>
+                        <p>123 Phố Chính, Tên Thành Phố, Quốc Gia</p>
                     </div>
                     <div>
-                        <h3>Email Us</h3>
-                        <p>contact@yourbrand.com</p>
+                        <h3>Email Chúng Tôi</h3>
+                        <p>contact@thươnghiệucủabạn.com</p>
                     </div>
                     <div>
-                        <h3>Call Us</h3>
+                        <h3>Gọi Chúng Tôi</h3>
                         <p>+1 234 567 890</p>
                     </div>
                 </div>
 
-                <!-- Contact Form -->
+                <!-- Mẫu Liên Hệ -->
                 <div class="form-container">
-                    <h2>Send Us a Message</h2>
+                    <h2>Gửi Thông Điệp Cho Chúng Tôi</h2>
                     <form action="" method="POST">
-                        <input type="text" name="name" placeholder="Your Name" required>
-                        <input type="email" name="email" placeholder="Your Email" required>
-                        <input type="text" name="subject" placeholder="Subject" required>
-                        <textarea name="message" placeholder="Your Message" required></textarea>
-                        <button type="submit">Send Message</button>
+                        <input type="text" name="name" placeholder="Tên của bạn" required>
+                        <input type="email" name="email" placeholder="Email của bạn" required>
+                        <input type="text" name="subject" placeholder="Chủ đề" required>
+                        <textarea name="message" placeholder="Thông điệp của bạn" required></textarea>
+                        <button type="submit">Gửi Thông Điệp</button>
                     </form>
                 </div>
             </div>
 
-            
-
         </body>
 
         </html>
+
 
 
 
