@@ -28,6 +28,9 @@ Route::get('/about', controllerMethod: 'App\Controllers\Client\AboutController@a
 // Chuyển đến trang Contact
 Route::get('/contact', controllerMethod: 'App\Controllers\Client\ContactController@contact');
 
+// Chuyển đến trang Checkout
+Route::get('/checkout', controllerMethod: 'App\Controllers\Client\CheckoutController@checkout');
+
 
 // Chuyển đến trang Variant
 Route::get('/variant', 'App\Controllers\Client\VariantController@variant');
