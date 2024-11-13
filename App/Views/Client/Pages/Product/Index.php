@@ -13,42 +13,42 @@ class Index extends BaseView
 ?>
 
 
-<section id="collection-products" class="py-4 my-4 py-md-5 my-md-5">
-    <div class="container-md">
-        <div class="row g-4">
-            <!-- Collection 1 -->
-            <div class="col-lg-6 col-md-6">
-                <div class="collection-card position-relative overflow-hidden rounded-4 shadow-lg" style="height: 100%; transition: transform 0.3s ease;">
-                    <img src="https://chuyensigiaythethao.com/wp-content/uploads/2020/08/dddf7006aaf656a80fe7-2.jpg" alt="sản phẩm" 
-                         class="img-fluid w-100 h-100" style="object-fit: cover; filter: brightness(70%); transition: transform 0.5s ease;">
-                    <div class="card-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-white" 
-                         style="background: rgba(0, 0, 0, 0.5);">
-                        <h3 class="card-title fw-bold display-5">Bộ Sưu Tập Tối Giản</h3>
-                        <a href="index.html" class="btn btn-outline-light mt-3 text-uppercase fw-bold" style="border-width: 2px;">Mua Ngay</a>
+        <section id="collection-products" class="py-4 my-4 py-md-5 my-md-5">
+            <div class="container-md">
+                <div class="row g-4">
+                    <!-- Collection 1 -->
+                    <div class="col-lg-6 col-md-6">
+                        <div class="collection-card position-relative overflow-hidden rounded-4 shadow-lg" style="height: 100%; transition: transform 0.3s ease;">
+                            <img src="https://chuyensigiaythethao.com/wp-content/uploads/2020/08/dddf7006aaf656a80fe7-2.jpg" alt="sản phẩm"
+                                class="img-fluid w-100 h-100" style="object-fit: cover; filter: brightness(70%); transition: transform 0.5s ease;">
+                            <div class="card-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-white"
+                                style="background: rgba(0, 0, 0, 0.5);">
+                                <h3 class="card-title fw-bold display-5">Bộ Sưu Tập Tối Giản</h3>
+                                <a href="index.html" class="btn btn-outline-light mt-3 text-uppercase fw-bold" style="border-width: 2px;">Mua Ngay</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Collection 2 -->
+                    <div class="col-lg-6 col-md-6">
+                        <div class="collection-card position-relative overflow-hidden rounded-4 shadow-lg" style="height: 100%; transition: transform 0.3s ease;">
+                            <img src="https://cf.shopee.vn/file/e265bdc4e2e3a81a0e251ef51cb48d04" alt="sản phẩm"
+                                class="img-fluid w-100 h-100" style="object-fit: cover; filter: brightness(70%); transition: transform 0.5s ease;">
+                            <div class="card-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-white"
+                                style="background: rgba(0, 0, 0, 0.5);">
+                                <h3 class="card-title fw-bold display-5">Bộ Sưu Tập Giày Thể Thao</h3>
+                                <a href="index.html" class="btn btn-outline-light mt-3 text-uppercase fw-bold" style="border-width: 2px;">Mua Ngay</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            
-            <!-- Collection 2 -->
-            <div class="col-lg-6 col-md-6">
-                <div class="collection-card position-relative overflow-hidden rounded-4 shadow-lg" style="height: 100%; transition: transform 0.3s ease;">
-                    <img src="https://cf.shopee.vn/file/e265bdc4e2e3a81a0e251ef51cb48d04" alt="sản phẩm" 
-                         class="img-fluid w-100 h-100" style="object-fit: cover; filter: brightness(70%); transition: transform 0.5s ease;">
-                    <div class="card-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-white" 
-                         style="background: rgba(0, 0, 0, 0.5);">
-                        <h3 class="card-title fw-bold display-5">Bộ Sưu Tập Giày Thể Thao</h3>
-                        <a href="index.html" class="btn btn-outline-light mt-3 text-uppercase fw-bold" style="border-width: 2px;">Mua Ngay</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+        </section>
 
 
 
-          <!-- quick view -->
-          <div class="modal fade" id="modaltoggle" aria-hidden="true" tabindex="-1">
+        <!-- quick view -->
+        <div class="modal fade" id="modaltoggle" aria-hidden="true" tabindex="-1">
             <div class="modal-dialog modal-fullscreen-md-down modal-md modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-body">
@@ -390,7 +390,7 @@ class Index extends BaseView
         </section>
 
 
-<!-- 2 ảnh full -->
+        <!-- 2 ảnh full -->
         <section id="collection-products" class="py-2 my-2 py-md-5 my-md-5">
             <div class="container-md">
                 <div class="row">
@@ -572,126 +572,45 @@ class Index extends BaseView
             </div>
         </section>
 
-        
+
         <h1 class="section-title text-uppercase" style="padding-left: 40px;">Sản phẩm giá hời!</h1>
 
         <div class="product-row" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; padding: 20px;">
-    <!-- Product 1 -->
-    <div class="product-item" style="border: 1px solid #ddd; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); transition: transform 0.3s;">
-        <div class="image" style="position: relative; height: 300px; overflow: hidden;">
-            <a href="#" title="" style="display: block; width: 100%; height: 100%;">
-                <img src="https://salt.tikicdn.com/cache/w1200/ts/product/02/e2/9e/800be9635281aedd83a1654d7992564a.jpg" class="img-responsive" style="width: 100%; height: 100%; object-fit: cover;">
-            </a>
-            <span class="promotion" style="position: absolute; top: 10px; left: 10px; background-color: #ff5050; color: white; padding: 5px 10px; border-radius: 4px; font-size: 14px;">-20%</span>
+            <?php
+            if (count($data) && count($data['products'])) :
+            ?>
+                <?php foreach ($data['products'] as $item) : ?>
+                    <div class="product-item" style="border: 1px solid #ddd; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); transition: transform 0.3s;">
+                        <div class="image" style="position: relative; height: 300px; overflow: hidden;">
+                            <a href="#" title="" style="display: block; width: 100%; height: 100%;">
+                                <img src="https://salt.tikicdn.com/cache/w1200/ts/product/02/e2/9e/800be9635281aedd83a1654d7992564a.jpg" class="img-responsive" style="width: 100%; height: 100%; object-fit: cover;">
+                            </a>
+                            <span class="promotion" style="position: absolute; top: 10px; left: 10px; background-color: #ff5050; color: white; padding: 5px 10px; border-radius: 4px; font-size: 14px;">-20%</span>
+                        </div>
+                        <div class="right-block" style="padding: 15px; text-align: center;">
+                            <h2 class="name" style="font-size: 18px; font-weight: bold; margin: 10px 0;">
+                                <a href="#" title="Giày thể thao cho nữ" style="text-decoration: none; color: #333;">Giày thể thao cho nữ</a>
+                            </h2>
+                            <div class="ratings clearfix" style="margin-bottom: 10px;">
+                                <div class="rating-box" style="width: 100%; height: 10px; background-color: #f1f1f1; border-radius: 5px;">
+                                    <div class="rating" style="width: 70%; height: 100%; background-color: #ffbf00; border-radius: 5px;"></div>
+                                </div>
+                            </div>
+                            <div class="price" style="margin-bottom: 15px;">
+                                <span class="price-new" style="color: #e60000; font-size: 20px; font-weight: bold;">1.180.000&nbsp;₫</span>
+                                <span class="price-old" style="color: #999; font-size: 16px; text-decoration: line-through; margin-left: 10px;">1.210.000&nbsp;₫</span>
+                            </div>
+                            <div class="addtocart-button clearfix" style="display: flex; justify-content: center; gap: 10px;">
+                                <a class="add-to-cart" href="javascript:void(0)" onclick="AddToCard(2651,1)" style="display: inline-block; padding: 8px 15px; background-color: #28a745; color: white; border-radius: 4px; text-decoration: none;">Thêm vào giỏ hàng</a>
+                                <a class="add-wishlist" href="#" style="display: inline-block; padding: 8px 15px; background-color: #ffc107; color: white; border-radius: 4px; text-decoration: none;">Chi tiết</a>
+                                <a class="add-compare" href="#" style="display: inline-block; padding: 8px 15px; background-color: #007bff; color: white; border-radius: 4px; text-decoration: none;">Mua ngay</a>
+                            </div>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
+            <?php endif; ?>
         </div>
-        <div class="right-block" style="padding: 15px; text-align: center;">
-            <h2 class="name" style="font-size: 18px; font-weight: bold; margin: 10px 0;">
-                <a href="#" title="Giày thể thao cho nữ" style="text-decoration: none; color: #333;">Giày thể thao cho nữ</a>
-            </h2>
-            <div class="ratings clearfix" style="margin-bottom: 10px;">
-                <div class="rating-box" style="width: 100%; height: 10px; background-color: #f1f1f1; border-radius: 5px;">
-                    <div class="rating" style="width: 70%; height: 100%; background-color: #ffbf00; border-radius: 5px;"></div>
-                </div>
-            </div>
-            <div class="price" style="margin-bottom: 15px;">
-                <span class="price-new" style="color: #e60000; font-size: 20px; font-weight: bold;">1.180.000&nbsp;₫</span>
-                <span class="price-old" style="color: #999; font-size: 16px; text-decoration: line-through; margin-left: 10px;">1.210.000&nbsp;₫</span>
-            </div>
-            <div class="addtocart-button clearfix" style="display: flex; justify-content: center; gap: 10px;">
-                <a class="add-to-cart" href="javascript:void(0)" onclick="AddToCard(2651,1)" style="display: inline-block; padding: 8px 15px; background-color: #28a745; color: white; border-radius: 4px; text-decoration: none;">Thêm vào giỏ hàng</a>
-                <a class="add-wishlist" href="#" style="display: inline-block; padding: 8px 15px; background-color: #ffc107; color: white; border-radius: 4px; text-decoration: none;">Chi tiết</a>
-                <a class="add-compare" href="#" style="display: inline-block; padding: 8px 15px; background-color: #007bff; color: white; border-radius: 4px; text-decoration: none;">Mua ngay</a>
-            </div>
-        </div>
-    </div>
 
-    <!-- Product 2 -->
-    <div class="product-item" style="border: 1px solid #ddd; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); transition: transform 0.3s;">
-        <div class="image" style="position: relative; height: 300px; overflow: hidden;">
-            <a href="#" title="Giày thể thao cho nam" style="display: block; width: 100%; height: 100%;">
-                <img src="https://topcomshop.com/uploads/images/a-a-giay-re/6/11647045837-242872808.jpg" class="img-responsive" style="width: 100%; height: 100%; object-fit: cover;">
-            </a>
-            <span class="promotion" style="position: absolute; top: 10px; left: 10px; background-color: #ff5050; color: white; padding: 5px 10px; border-radius: 4px; font-size: 14px;">-20%</span>
-        </div>
-        <div class="right-block" style="padding: 15px; text-align: center;">
-            <h2 class="name" style="font-size: 18px; font-weight: bold; margin: 10px 0;">
-                <a href="#" title="Giày thể thao cho nam" style="text-decoration: none; color: #333;">Giày thể thao cho nam</a>
-            </h2>
-            <div class="ratings clearfix" style="margin-bottom: 10px;">
-                <div class="rating-box" style="width: 100%; height: 10px; background-color: #f1f1f1; border-radius: 5px;">
-                    <div class="rating" style="width: 70%; height: 100%; background-color: #ffbf00; border-radius: 5px;"></div>
-                </div>
-            </div>
-            <div class="price" style="margin-bottom: 15px;">
-                <span class="price-new" style="color: #e60000; font-size: 20px; font-weight: bold;">1.299.000&nbsp;₫</span>
-                <span class="price-old" style="color: #999; font-size: 16px; text-decoration: line-through; margin-left: 10px;">1.550.000&nbsp;₫</span>
-            </div>
-            <div class="addtocart-button clearfix" style="display: flex; justify-content: center; gap: 10px;">
-                <a class="add-to-cart" href="javascript:void(0)" onclick="AddToCard(2651,1)" style="display: inline-block; padding: 8px 15px; background-color: #28a745; color: white; border-radius: 4px; text-decoration: none;">Thêm vào giỏ hàng</a>
-                <a class="add-wishlist" href="#" style="display: inline-block; padding: 8px 15px; background-color: #ffc107; color: white; border-radius: 4px; text-decoration: none;">Chi tiết</a>
-                <a class="add-compare" href="#" style="display: inline-block; padding: 8px 15px; background-color: #007bff; color: white; border-radius: 4px; text-decoration: none;">Mua ngay</a>
-            </div>
-        </div>
-    </div>
-
-    <!-- Product 3 -->
-    <div class="product-item" style="border: 1px solid #ddd; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); transition: transform 0.3s;">
-        <div class="image" style="position: relative; height: 300px; overflow: hidden;">
-            <a href="#" title="Giày thể thao bassic" style="display: block; width: 100%; height: 100%;">
-                <img src="https://cdn.vuahanghieu.com/unsafe/0x900/left/top/smart/filters:quality(90)/https://admin.vuahanghieu.com/upload/product/2023/10/giay-the-thao-mlb-chunky-liner-basic-sd-new-york-mets-3asxcls3n-09nys-mau-xanh-navy-652cfdc42b067-16102023160924.jpg" class="img-responsive" style="width: 100%; height: 100%; object-fit: cover;">
-            </a>
-            <span class="promotion" style="position: absolute; top: 10px; left: 10px; background-color: #ff5050; color: white; padding: 5px 10px; border-radius: 4px; font-size: 14px;">-20%</span>
-        </div>
-        <div class="right-block" style="padding: 15px; text-align: center;">
-            <h2 class="name" style="font-size: 18px; font-weight: bold; margin: 10px 0;">
-                <a href="#" title="Giày thể thao bassic" style="text-decoration: none; color: #333;">Giày thể thao basic</a>
-            </h2>
-            <div class="ratings clearfix" style="margin-bottom: 10px;">
-                <div class="rating-box" style="width: 100%; height: 10px; background-color: #f1f1f1; border-radius: 5px;">
-                    <div class="rating" style="width: 70%; height: 100%; background-color: #ffbf00; border-radius: 5px;"></div>
-                </div>
-            </div>
-            <div class="price" style="margin-bottom: 15px;">
-                <span class="price-new" style="color: #e60000; font-size: 20px; font-weight: bold;">1.368.000&nbsp;₫</span>
-                <span class="price-old" style="color: #999; font-size: 16px; text-decoration: line-through; margin-left: 10px;">1.710.000&nbsp;₫</span>
-            </div>
-            <div class="addtocart-button clearfix" style="display: flex; justify-content: center; gap: 10px;">
-                <a class="add-to-cart" href="javascript:void(0)" onclick="AddToCard(2651,1)" style="display: inline-block; padding: 8px 15px; background-color: #28a745; color: white; border-radius: 4px; text-decoration: none;">Thêm vào giỏ hàng</a>
-                <a class="add-wishlist" href="#" style="display: inline-block; padding: 8px 15px; background-color: #ffc107; color: white; border-radius: 4px; text-decoration: none;">Chi tiết</a>
-                <a class="add-compare" href="#" style="display: inline-block; padding: 8px 15px; background-color: #007bff; color: white; border-radius: 4px; text-decoration: none;">Mua ngay</a>
-            </div>
-        </div>
-    </div>
-
-    <!-- Product 4 -->
-    <div class="product-item" style="border: 1px solid #ddd; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); transition: transform 0.3s;">
-        <div class="image" style="position: relative; height: 300px; overflow: hidden;">
-            <a href="/san-pham/ao-cong-so-tay-bup-sang-trong.html" title="Giày thể thao bassic" style="display: block; width: 100%; height: 100%;">
-                <img src="https://cf.shopee.vn/file/0e4f0643bf51a6a2a511368ed213ff99" class="img-responsive" style="width: 100%; height: 100%; object-fit: cover;">
-            </a>
-            <span class="promotion" style="position: absolute; top: 10px; left: 10px; background-color: #ff5050; color: white; padding: 5px 10px; border-radius: 4px; font-size: 14px;">-20%</span>
-        </div>
-        <div class="right-block" style="padding: 15px; text-align: center;">
-            <h2 class="name" style="font-size: 18px; font-weight: bold; margin: 10px 0;">
-                <a href="#" title="Giày thể thao bassic" style="text-decoration: none; color: #333;">Giày thể thao basic</a>
-            </h2>
-            <div class="ratings clearfix" style="margin-bottom: 10px;">
-                <div class="rating-box" style="width: 100%; height: 10px; background-color: #f1f1f1; border-radius: 5px;">
-                    <div class="rating" style="width: 70%; height: 100%; background-color: #ffbf00; border-radius: 5px;"></div>
-                </div>
-            </div>
-            <div class="price" style="margin-bottom: 15px;">
-                <span class="price-new" style="color: #e60000; font-size: 20px; font-weight: bold;">990.000&nbsp;₫</span>
-                <span class="price-old" style="color: #999; font-size: 16px; text-decoration: line-through; margin-left: 10px;">1.990.000&nbsp;₫</span>
-            </div>
-            <div class="addtocart-button clearfix" style="display: flex; justify-content: center; gap: 10px;">
-                <a class="add-to-cart" href="javascript:void(0)" onclick="AddToCard(2651,1)" style="display: inline-block; padding: 8px 15px; background-color: #28a745; color: white; border-radius: 4px; text-decoration: none;">Thêm vào giỏ hàng</a>
-                <a class="add-wishlist" href="#" style="display: inline-block; padding: 8px 15px; background-color: #ffc107; color: white; border-radius: 4px; text-decoration: none;">Chi tiết</a>
-                <a class="add-compare" href="#" style="display: inline-block; padding: 8px 15px; background-color: #007bff; color: white; border-radius: 4px; text-decoration: none;">Mua ngay</a>
-            </div>
-        </div>
-    </div>
-</div>
 
 
 

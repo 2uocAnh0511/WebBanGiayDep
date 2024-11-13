@@ -66,6 +66,15 @@ class ProductController
                 'image' => 'product.jpg',
                 'status' => 1
             ],
+            [
+                'id' => 4,
+                'name' => 'Product 3',
+                'description' => 'Description Product 3',
+                'price' => 300000,
+                'discount_price' => 30000,
+                'image' => 'product.jpg',
+                'status' => 1
+            ],
 
         ];
         $data = [

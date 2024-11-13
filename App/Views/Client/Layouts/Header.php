@@ -211,9 +211,9 @@ class Header extends BaseView
                                     <li class="nav-item">
                                         <a class="nav-link me-5" href="#">Bài viết</a>
                                     </li>
-                                    <li class="nav-item">
+                                    <!-- <li class="nav-item">
                                         <a class="nav-link me-5" href="index.html">Cửa hàng</a>
-                                    </li>
+                                    </li> -->
                                     <li class="nav-item">
                                         <a class="nav-link me-5" href="/about">Về chúng tôi</a>
                                     </li>
