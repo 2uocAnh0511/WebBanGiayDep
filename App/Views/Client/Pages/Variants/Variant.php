@@ -10,19 +10,11 @@ class Variant extends BaseView
     {
 
 ?>
-        <!DOCTYPE html>
-        <html lang="vi">
-
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Quản Lý Biến Thể Sản Phẩm</title>
-            <style>
+       
+        <style>
                 body {
-                    font-family: Arial, sans-serif;
-                    margin: 0;
-                    padding: 20px;
-                    background-color: #f8f8f8;
+                    
+                    background-color: white;
                 }
 
                 h1 {
@@ -37,7 +29,7 @@ class Variant extends BaseView
                 }
 
                 .variant {
-                    background: white;
+                    background-color: #f8f8f8;
                     border: 1px solid #ddd;
                     border-radius: 8px;
                     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -69,28 +61,23 @@ class Variant extends BaseView
                     }
                 }
             </style>
-        </head>
-
-        <body>
             <h1>Quản Lý Biến Thể Sản Phẩm</h1>
             <div class="product-variants">
                 <div class="variant">
-                    <img src="path/to/image1.jpg" alt="Variant 1">
+                    <img src="/public/assets/client/images/card-image1.jpg" alt="Variant 1">
                     <h2>Biến thể 1</h2>
                     <p>Kích cỡ: S, M, L</p>
                     <p>Màu sắc: Đỏ, Xanh, Vàng</p>
                 </div>
                 <div class="variant">
-                    <img src="path/to/image2.jpg" alt="Variant 2">
+                    <img src="/public/assets/client/images/card-image2.jpg" alt="Variant 2">
                     <h2>Biến thể 2</h2>
                     <p>Kích cỡ: M, L, XL</p>
                     <p>Màu sắc: Đen, Trắng</p>
                 </div>
                 <!-- Thêm biến thể khác ở đây -->
             </div>
-        </body>
-
-        </html>
+        
 
 
 

@@ -1,0 +1,53 @@
+[14-Nov-2024 01:40:20 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined method App\Controllers\Client\ProductController::product() in D:\A_HocTap\DuAn_1\SRC\WebBanGiayDep_dev\WebBanGiayDep\App\Route.php:82
+Stack trace:
+#0 D:\A_HocTap\DuAn_1\SRC\WebBanGiayDep_dev\WebBanGiayDep\index.php(58): App\Route::dispatch()
+#1 {main}
+  thrown in D:\A_HocTap\DuAn_1\SRC\WebBanGiayDep_dev\WebBanGiayDep\App\Route.php on line 82
+[14-Nov-2024 01:40:47 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined method App\Controllers\Client\ProductController::product() in D:\A_HocTap\DuAn_1\SRC\WebBanGiayDep_dev\WebBanGiayDep\App\Route.php:82
+Stack trace:
+#0 D:\A_HocTap\DuAn_1\SRC\WebBanGiayDep_dev\WebBanGiayDep\index.php(58): App\Route::dispatch()
+#1 {main}
+  thrown in D:\A_HocTap\DuAn_1\SRC\WebBanGiayDep_dev\WebBanGiayDep\App\Route.php on line 82
+[14-Nov-2024 01:41:10 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "App\Views\Client\Pages\Product\Index" not found in D:\A_HocTap\DuAn_1\SRC\WebBanGiayDep_dev\WebBanGiayDep\App\Controllers\Client\ProductController.php:77
+Stack trace:
+#0 D:\A_HocTap\DuAn_1\SRC\WebBanGiayDep_dev\WebBanGiayDep\App\Route.php(82): App\Controllers\Client\ProductController::product()
+#1 D:\A_HocTap\DuAn_1\SRC\WebBanGiayDep_dev\WebBanGiayDep\index.php(58): App\Route::dispatch()
+#2 {main}
+  thrown in D:\A_HocTap\DuAn_1\SRC\WebBanGiayDep_dev\WebBanGiayDep\App\Controllers\Client\ProductController.php on line 77
+[14-Nov-2024 01:42:22 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "App\Views\Client\Pages\Product\Index" not found in D:\A_HocTap\DuAn_1\SRC\WebBanGiayDep_dev\WebBanGiayDep\App\Controllers\Client\ProductController.php:78
+Stack trace:
+#0 D:\A_HocTap\DuAn_1\SRC\WebBanGiayDep_dev\WebBanGiayDep\App\Route.php(82): App\Controllers\Client\ProductController::product()
+#1 D:\A_HocTap\DuAn_1\SRC\WebBanGiayDep_dev\WebBanGiayDep\index.php(58): App\Route::dispatch()
+#2 {main}
+  thrown in D:\A_HocTap\DuAn_1\SRC\WebBanGiayDep_dev\WebBanGiayDep\App\Controllers\Client\ProductController.php on line 78
+[14-Nov-2024 01:42:56 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "App\Views\Client\Pages\Product\Index" not found in D:\A_HocTap\DuAn_1\SRC\WebBanGiayDep_dev\WebBanGiayDep\App\Controllers\Client\ProductController.php:78
+Stack trace:
+#0 D:\A_HocTap\DuAn_1\SRC\WebBanGiayDep_dev\WebBanGiayDep\App\Route.php(82): App\Controllers\Client\ProductController::product()
+#1 D:\A_HocTap\DuAn_1\SRC\WebBanGiayDep_dev\WebBanGiayDep\index.php(58): App\Route::dispatch()
+#2 {main}
+  thrown in D:\A_HocTap\DuAn_1\SRC\WebBanGiayDep_dev\WebBanGiayDep\App\Controllers\Client\ProductController.php on line 78
+[14-Nov-2024 01:44:47 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined method App\Controllers\Client\ProductController::product() in D:\A_HocTap\DuAn_1\SRC\WebBanGiayDep_dev\WebBanGiayDep\App\Route.php:82
+Stack trace:
+#0 D:\A_HocTap\DuAn_1\SRC\WebBanGiayDep_dev\WebBanGiayDep\index.php(58): App\Route::dispatch()
+#1 {main}
+  thrown in D:\A_HocTap\DuAn_1\SRC\WebBanGiayDep_dev\WebBanGiayDep\App\Route.php on line 82
+[14-Nov-2024 01:45:02 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined method App\Controllers\Client\ProductController::product() in D:\A_HocTap\DuAn_1\SRC\WebBanGiayDep_dev\WebBanGiayDep\App\Route.php:82
+Stack trace:
+#0 D:\A_HocTap\DuAn_1\SRC\WebBanGiayDep_dev\WebBanGiayDep\index.php(58): App\Route::dispatch()
+#1 {main}
+  thrown in D:\A_HocTap\DuAn_1\SRC\WebBanGiayDep_dev\WebBanGiayDep\App\Route.php on line 82
+[14-Nov-2024 01:45:02 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined method App\Controllers\Client\ProductController::product() in D:\A_HocTap\DuAn_1\SRC\WebBanGiayDep_dev\WebBanGiayDep\App\Route.php:82
+Stack trace:
+#0 D:\A_HocTap\DuAn_1\SRC\WebBanGiayDep_dev\WebBanGiayDep\index.php(58): App\Route::dispatch()
+#1 {main}
+  thrown in D:\A_HocTap\DuAn_1\SRC\WebBanGiayDep_dev\WebBanGiayDep\App\Route.php on line 82
+[14-Nov-2024 01:45:03 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined method App\Controllers\Client\ProductController::product() in D:\A_HocTap\DuAn_1\SRC\WebBanGiayDep_dev\WebBanGiayDep\App\Route.php:82
+Stack trace:
+#0 D:\A_HocTap\DuAn_1\SRC\WebBanGiayDep_dev\WebBanGiayDep\index.php(58): App\Route::dispatch()
+#1 {main}
+  thrown in D:\A_HocTap\DuAn_1\SRC\WebBanGiayDep_dev\WebBanGiayDep\App\Route.php on line 82
+[14-Nov-2024 01:45:07 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined method App\Controllers\Client\ProductController::product() in D:\A_HocTap\DuAn_1\SRC\WebBanGiayDep_dev\WebBanGiayDep\App\Route.php:82
+Stack trace:
+#0 D:\A_HocTap\DuAn_1\SRC\WebBanGiayDep_dev\WebBanGiayDep\index.php(58): App\Route::dispatch()
+#1 {main}
+  thrown in D:\A_HocTap\DuAn_1\SRC\WebBanGiayDep_dev\WebBanGiayDep\App\Route.php on line 82
