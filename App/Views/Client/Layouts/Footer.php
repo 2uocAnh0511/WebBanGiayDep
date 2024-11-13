@@ -21,7 +21,7 @@ class Footer extends BaseView
         .footer {
           background-color: #f9f9f9;
           padding: 40px 20px;
-          display: flex;
+          /* display: flex; */
           justify-content: space-between;
           align-items: center;
           font-size: 14px;
@@ -57,10 +57,11 @@ class Footer extends BaseView
         }
 
         .footer-bottom {
+          background-color: #333;
+          color: white;
           text-align: center;
-          padding-top: 20px;
-          border-top: 1px solid #ddd;
-          margin-top: 20px;
+          padding: 15px;
+          margin-top: 30px;
         }
       </style>
     </head>
@@ -102,7 +103,11 @@ class Footer extends BaseView
             <img src="/public/assets/client/images/Shoes store.png" href="/" alt="Logo 5TV" width="150">
           </div>
         </div>
+        
       </footer>
+      <div class="footer-bottom">
+          <p>&copy; 2024 5TV. Made by 5TV.</p>
+        </div>
     </body>
     <script src="/public/assets/client/js/jquery-1.11.0.min.js"></script>
     <script src="/public/assets/client//js/plugins.js"></script>
