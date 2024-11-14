@@ -258,6 +258,11 @@ class Header extends BaseView
                                 <use xlink:href="#user"></use>
                             </svg>
                         </a>
+                        <!-- <a href="register" data-bs-toggle="modal" data-bs-target="#modalregister" class="border-0">
+                            <svg class="register" width="24" height="24">
+                                <use xlink:href="#register"></use>
+                            </svg>
+                        </a> -->
                     </li>
                     <li class="pe-3">
                         <a href="#" data-bs-toggle="modal" data-bs-target="#modallong" class="border-0">
