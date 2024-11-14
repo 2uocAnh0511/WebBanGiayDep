@@ -56,10 +56,11 @@ class Detail extends BaseView
                             <label for="size">Kích thước:</label>
                             <select name="size" id="size" class="form-control" required>
                                 <option value="">Chọn kích thước</option>
-                                <option value="S">S</option>
-                                <option value="M">M</option>
-                                <option value="L">L</option>
-                                <option value="XL">XL</option>
+                                <option value="S">28</option>
+                                <option value="M">29</option>
+                                <option value="L">30</option>
+                                <option value="XL">31</option>
+                                <option value="XL">32</option>
                             </select>
                         </div>
 

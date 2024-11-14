@@ -428,7 +428,7 @@ class Home extends BaseView
                 <div class="display-header d-flex align-items-center justify-content-between">
                     <h2 class="section-title text-uppercase">Sản phẩm nổi bật</h2>
                     <div class="btn-right">
-                        <a href="index.html" class="d-inline-block text-uppercase text-hover fw-bold">Xem tất cả</a>
+                        <a href="/products" class="d-inline-block text-uppercase text-hover fw-bold">Xem tất cả</a>
                     </div>
                 </div>
                 <div class="product-content padding-small">
@@ -608,7 +608,7 @@ class Home extends BaseView
         <div class="display-header d-flex align-items-center justify-content-between">
             <h2 class="section-title text-uppercase">Sản Phẩm Mới Nhất</h2>
             <div class="btn-right">
-                <a href="index.html" class="d-inline-block text-uppercase text-hover fw-bold">Xem tất cả</a>
+                <a href="/products" class="d-inline-block text-uppercase text-hover fw-bold">Xem tất cả</a>
             </div>
         </div>
         <div class="product-content padding-small">

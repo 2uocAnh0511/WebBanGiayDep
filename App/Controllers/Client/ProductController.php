@@ -45,7 +45,7 @@ class ProductController
                 'description' => 'Description Product 1',
                 'price' => 100000,
                 'discount_price' => 10000,
-                'image' => 'summary-item1.jpg',
+                'image' => 'card-large-item2',
                 'status' => 1
             ],
             [

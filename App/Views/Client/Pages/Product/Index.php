@@ -583,7 +583,7 @@ class Index extends BaseView
                     <div class="product-item" style="border: 1px solid #ddd; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); transition: transform 0.3s;">
                         <div class="image" style="position: relative; height: 300px; overflow: hidden;">
                             <a href="#" title="" style="display: block; width: 100%; height: 100%;">
-                                <img src="https://salt.tikicdn.com/cache/w1200/ts/product/02/e2/9e/800be9635281aedd83a1654d7992564a.jpg" class="img-responsive" style="width: 100%; height: 100%; object-fit: cover;">
+                                <img src="/public/assets/client/images/card-large-item2.jpg" class="img-responsive" style="width: 100%; height: 100%; object-fit: cover;">
                             </a>
                             <span class="promotion" style="position: absolute; top: 10px; left: 10px; background-color: #ff5050; color: white; padding: 5px 10px; border-radius: 4px; font-size: 14px;">-20%</span>
                         </div>

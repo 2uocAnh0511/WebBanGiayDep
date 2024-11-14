@@ -86,7 +86,7 @@ class About extends BaseView
 
                 <!-- Phần Hình Ảnh -->
                 <div class="section image-section">
-                    <img src="https://via.placeholder.com/1200x600" alt="Hình ảnh Nike">
+                    <img src="/public/assets/client/images/banner.jpg" alt="Hình ảnh Nike">
                 </div>
 
                 <!-- Phần Câu Chuyện -->
