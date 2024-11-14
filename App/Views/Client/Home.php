@@ -276,7 +276,7 @@ class Home extends BaseView
                             <div class="modal-footer mt-5 d-flex justify-content-center">
                                 <button type="button" class="btn btn-red hvr-sweep-to-right dark-sweep">Đăng nhập</button>
                                 <button type="button"
-                                    class="btn btn-outline-gray hvr-sweep-to-right dark-sweep">Đăng ký</button>
+                                    class="btn btn-outline-gray hvr-sweep-to-right dark-sweep"><a href="#" data-bs-toggle="modal" data-bs-target="#modalregister">Đăng ký</a></button>
                             </div>
                         </div>
                     </div>
@@ -284,6 +284,45 @@ class Home extends BaseView
             </div>
         </div>
         <!-- Login -->
+
+        <div class="modal fade" id="modalregister" tabindex="-1" aria-modal="true" role="dialog">
+            <div class="modal-dialog modal-fullscreen-md-down modal-md modal-dialog-centered" role="document">
+                <div class="modal-content p-4">
+                    <div class="modal-header mx-auto border-0">
+                        <h2 class="modal-title fs-3 fw-normal">Đăng ký</h2>
+                    </div>
+                    <div class="modal-body">
+                        <div class="login-detail">
+                            <div class="login-form p-0">
+                                <div class="col-lg-12 mx-auto">
+                                    <form id="login-form">
+                                        <input type="text" name="username" placeholder="Tên người dùng hoặc Địa chỉ Email *"
+                                            class="mb-3 ps-3 text-input">
+                                        <input type="password" name="password" placeholder="Mật khẩu" class="ps-3 text-input">
+                                        <input type="password" name="re-password" placeholder="Nhập lại mật khẩu" class="ps-3 text-input">
+                                        <div class="checkbox d-flex justify-content-between mt-4">
+                                            <p class="checkbox-form">
+                                                <label class="">
+                                                    <input name="rememberme" type="checkbox" id="remember-me" value="forever"> Ghi nhớ tôi </label>
+                                            </p>
+                                            <p class="lost-password">
+                                                <a href="#">Quên mật khẩu?</a>
+                                            </p>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="modal-footer mt-5 d-flex justify-content-center">
+                                <button type="button" class="btn btn-red hvr-sweep-to-right dark-sweep">Đăng nhập</button>
+                                <button type="button"
+                                    class="btn btn-outline-gray hvr-sweep-to-right dark-sweep">Đăng ký</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Register -->
 
 
         <section id="intro" class="position-relative mt-4">

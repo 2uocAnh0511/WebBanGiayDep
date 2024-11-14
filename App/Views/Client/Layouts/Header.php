@@ -155,9 +155,9 @@ class Header extends BaseView
                             </div>
                             <div class="col">
                                 <ul class="d-flex justify-content-end gap-3 list-unstyled m-0">
-                                    <li>
+                                    <!-- <li>
                                         <a href="/contact">Liên hệ</a>
-                                    </li>
+                                    </li> -->
                                     <li>
                                         <a href="#" data-bs-toggle="modal" data-bs-target="#modallong" >Giỏ hàng</a>
                                     </li>
@@ -217,8 +217,11 @@ class Header extends BaseView
                                     <li class="nav-item">
                                         <a class="nav-link me-5" href="/about">Về chúng tôi</a>
                                     </li>
-                                    <li class="nav-item">
+                                    <!-- <li class="nav-item">
                                         <a class="nav-link me-5" href="/variant">Biến thể</a>
+                                    </li> -->
+                                    <li class="nav-item">
+                                        <a class="nav-link me-5" href="/contact">Liên hệ</a>
                                     </li>
                                     <!-- <li class="nav-item dropdown">
                                         <a class="nav-link me-5 active dropdown-toggle border-0" href="#" data-bs-toggle="dropdown"
