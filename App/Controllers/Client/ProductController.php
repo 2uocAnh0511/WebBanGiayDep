@@ -94,7 +94,7 @@ class ProductController
             'description' => 'Hãy mua giày tốt và một chiếc nệm tốt, bởi vì khi bạn không ở trên chiếc nệm, bạn sẽ ở trong đôi giày. Với bốn đôi giày, tôi có thể du lịch khắp thế giới.',
             'price' => 1500000,
             'discount_price' => 10000,
-            'image' => 'product.jpg',
+            'image' => 'card-image2.jpg',
             'status' => 1
         ];
         $data = [
